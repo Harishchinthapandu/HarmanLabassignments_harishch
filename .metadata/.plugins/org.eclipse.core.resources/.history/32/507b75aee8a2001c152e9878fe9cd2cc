@@ -11,7 +11,7 @@ public class BookStore {
 		this.books = new Book[SIZE];
 		init();
 	}
-	
+	//populate some books
 	private void init() {
 			books[0]=new Book("rich dad poor dad", "RK", "54545A12", 10);
 			books[1]=new Book("basic physics", "abc", "54595A12", 20);

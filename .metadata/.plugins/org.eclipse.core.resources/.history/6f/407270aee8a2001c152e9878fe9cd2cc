@@ -21,7 +21,7 @@ class Employee{
 		return firstName;
 	}
 
-	
+	//calculate full name and return 
 	public String getName() {
 		return firstName+" "+ lastName;
 	}
@@ -34,7 +34,7 @@ class Employee{
 		return salary;
 	}
 	
-	 
+	//calculate annual salary and return 
 	public int getAnnualSalary() {
 		return salary*12;
 	}
@@ -43,11 +43,12 @@ class Employee{
 		this.salary = salary;
 	}
 	
-	
+	//increase the salary by the percentage and return the new salary
 	public void raiseSalary(int percentage) {
 		this.salary= this.salary*(100+percentage)/100;
 	}
 
+	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", salary=" + salary
 				+ "]";
