@@ -1,0 +1,8 @@
+package day2;
+
+public class InvalidAgeException extends Exception{
+	public InvalidAgeException(String str)
+	  {
+	    System.out.println(str);
+	   }
+}
