@@ -1,3 +1,0 @@
-create table books(id int not null primary key auto_increment, title varchar(100) not null, price double not null);
-insert into books(title, price) values ('rich dad poor dad',120);
-insert into books(title, price) values ('you can win',120);
